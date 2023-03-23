@@ -1,0 +1,42 @@
+p {
+  margin: 5px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.movie-poster {
+  border-radius: 2px;
+}
+
+.movie-title {
+  font-weight: 800;
+  font-size: large;
+}
+
+.green-score {
+  font-weight: 800;
+  color: green;
+}
+
+.red-score {
+  font-weight: 800;
+  color: red;
+}
+
+.release-date {
+  font-weight: 200;
+  font-size: small;
+}
